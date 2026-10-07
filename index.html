@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Sameeksha C N - Electronics and Communication Engineering Student & Aspiring Software/Embedded Systems Developer">
+    <meta name="author" content="Sameeksha C N">
+    <title>Sameeksha C N | Engineering Portfolio</title>
+    
+    <!-- Google Fonts: Sora -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Devicon Developer Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    
+    <!-- Custom Modern Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient Decorative Purple Floating Glow Orbs -->
+    <div class="ambient-glow orb-1" aria-hidden="true"></div>
+    <div class="ambient-glow orb-2" aria-hidden="true"></div>
+    <div class="ambient-glow orb-3" aria-hidden="true"></div>
+
+    <!-- ========================================================= -->
+    <!-- HEADER & GLASS NAVIGATION                                 -->
+    <!-- ========================================================= -->
+    <header class="glass-header">
+        <nav aria-label="Main Navigation">
+            <div class="logo">
+                <a href="#hero">
+                    <span class="logo-mark">S</span>
+                    <span class="logo-text">Sameeksha C N</span>
+                </a>
+            </div>
+
+            <!-- Navigation Links (ScrollSpy & Vertical Drawer on Mobile) -->
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about"><i class="fa-solid fa-user-astronaut"></i> <span>About</span></a></li>
+                <li><a href="#skills"><i class="fa-solid fa-laptop-code"></i> <span>Skills</span></a></li>
+                <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i> <span>Projects</span></a></li>
+                <li><a href="#timeline"><i class="fa-solid fa-graduation-cap"></i> <span>Education</span></a></li>
+                <li><a href="#achievements"><i class="fa-solid fa-award"></i> <span>Achievements</span></a></li>
+                <li><a href="#contact"><i class="fa-solid fa-paper-plane"></i> <span>Contact</span></a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <!-- Night Mode / Dark Mode Toggle -->
+                <div class="theme-toggle-container">
+                    <button id="theme-toggle" type="button" aria-label="Toggle Night Mode" class="glass-btn">
+                        <span class="toggle-icon">🌙</span>
+                        <span class="toggle-text">Dark Mode</span>
+                    </button>
+                </div>
+
+                <!-- Vertical Navbar Toggle Button for Mobile / Tablet -->
+                <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="nav-links">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Mobile Drawer Overlay Backdrop -->
+        <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
+    </header>
+
+    <!-- ========================================================= -->
+    <!-- MAIN CONTENT AREA                                         -->
+    <!-- ========================================================= -->
+    <main>
+
+        <!-- ===================================================== -->
+        <!-- HERO SECTION                                          -->
+        <!-- ===================================================== -->
+        <section id="hero" aria-labelledby="hero-title">
+            <div class="container hero-container">
+                <!-- Introduction Column -->
+                <div class="hero-intro reveal-left">
+                    <div class="hero-badge-pill">
+                        <span class="badge-dot"></span>
+                        <span>Available for Internships &amp; Engineering Projects</span>
+                    </div>
+
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 id="hero-title" class="hero-name">Sameeksha C N</h1>
+                    <p class="hero-role">Electronics &amp; Communication Engineering Student | Embedded Systems &amp; Software Enthusiast</p>
+                    
+                    <p class="hero-bio">
+                        Dedicated engineering undergraduate at Adichunchanagiri Institute of Technology with a strong CGPA of 9.6. 
+                        Passionate about C Programming, Python, Embedded C, and developing smart IoT hardware solutions.
+                    </p>
+
+                    <!-- Key Metric Pills -->
+                    <div class="hero-metrics">
+                        <div class="metric-pill">
+                            <span class="metric-num">9.6</span>
+                            <span class="metric-txt">Cumulative CGPA</span>
+                        </div>
+                        <div class="metric-pill">
+                            <span class="metric-num">9.95</span>
+                            <span class="metric-txt">2nd Sem SGPA</span>
+                        </div>
+                        <div class="metric-pill">
+                            <span class="metric-num">90.33%</span>
+                            <span class="metric-txt">PU Distinction</span>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Explore Projects</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="resume.pdf" class="btn btn-secondary" download target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-file-pdf"></i>
+                            <span>Download Resume</span>
+                        </a>
+                        <a href="#contact" class="btn btn-glass">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            <span>Get in Touch</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Profile Photo Column with Perfect Circular Frame -->
+                <div class="hero-avatar-col reveal-right">
+                    <div class="avatar-frame-outer">
+                        <div class="avatar-glow-halo"></div>
+                        <div class="hero-avatar-circle">
+                            <img src="profile.jpg" alt="Portrait of Sameeksha C N" class="profile-img">
+                        </div>
+                        <div class="avatar-tag-pill">
+                            <span class="status-pulse-dot"></span>
+                            <span>B.E. in ECE &bull; 2025–2029</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================================================== -->
+        <!-- ABOUT SECTION                                         -->
+        <!-- ===================================================== -->
+        <section id="about" aria-labelledby="about-title">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">BACKGROUND &amp; PHILOSOPHY</span>
+                    <h2 id="about-title" class="section-title">About Me</h2>
+                    <p class="section-subtitle">Academic background, core interests, and vision</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text glass-card reveal-left">
+                        <p>
+                            I am currently pursuing my <strong>Bachelor of Engineering (B.E.) in Electronics and Communication Engineering</strong> 
+                            at <strong>Adichunchanagiri Institute of Technology, Chikkamagaluru</strong> (Batch 2025 – 2029).
+                        </p>
+                        <p>
+                            With a strong analytical mindset and a passion for engineering innovation, I consistently maintain academic excellence, 
+                            achieving an outstanding <strong>9.95 SGPA</strong> in my second semester and a cumulative <strong>CGPA of 9.6</strong>.
+                        </p>
+                        <p>
+                            My focus centers on combining software development with hardware engineering—building practical embedded prototypes, 
+                            programming microcontrollers with Embedded C and Python, and designing energy-efficient automation systems.
+                        </p>
+                    </div>
+
+                    <div class="highlight-box glass-card reveal-right">
+                        <h3>Academic Highlights</h3>
+                        <div class="stat-item">
+                            <div class="stat-value">9.6</div>
+                            <div class="stat-label">Current Overall CGPA (B.E.)</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">9.95</div>
+                            <div class="stat-label">2nd Semester SGPA</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">90.33%</div>
+                            <div class="stat-label">Pre-University (PU) Distinction</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================================================== -->
+        <!-- SKILLS SECTION                                        -->
+        <!-- ===================================================== -->
+        <section id="skills" aria-labelledby="skills-title">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">AREAS OF EXPERTISE</span>
+                    <h2 id="skills-title" class="section-title">Technical Skills</h2>
+                    <p class="section-subtitle">Core proficiencies, microcontrollers, and modern tools</p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card glass-card reveal">
+                        <h3><i class="fa-solid fa-code"></i> Programming Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-pill"><i class="devicon-c-plain colored"></i> C Programming</span>
+                            <span class="skill-pill"><i class="devicon-python-plain colored"></i> Python</span>
+                            <span class="skill-pill"><i class="fa-solid fa-microchip skill-icon-chip"></i> Embedded C</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card glass-card reveal">
+                        <h3><i class="fa-solid fa-bolt"></i> Core Engineering</h3>
+                        <div class="skill-tags">
+                            <span class="skill-pill"><i class="fa-solid fa-tower-broadcast skill-icon-ece"></i> Electronics &amp; Communication</span>
+                            <span class="skill-pill"><i class="devicon-arduino-plain colored"></i> Arduino Platform</span>
+                            <span class="skill-pill"><i class="fa-solid fa-cpu skill-icon-cpu"></i> Embedded Systems</span>
+                            <span class="skill-pill"><i class="fa-solid fa-microchip skill-icon-mcu"></i> Microcontroller Interfacing</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card glass-card reveal">
+                        <h3><i class="fa-solid fa-plug"></i> Sensors &amp; Hardware</h3>
+                        <div class="skill-tags">
+                            <span class="skill-pill"><i class="fa-solid fa-person-walking skill-icon-pir"></i> PIR Sensors</span>
+                            <span class="skill-pill"><i class="fa-solid fa-wave-square skill-icon-ir"></i> IR Sensors</span>
+                            <span class="skill-pill"><i class="fa-solid fa-id-card-clip skill-icon-rfid"></i> RFID Technology</span>
+                            <span class="skill-pill"><i class="fa-solid fa-lightbulb skill-icon-led"></i> LED Lighting Systems</span>
+                            <span class="skill-pill"><i class="fa-solid fa-diagram-project skill-icon-circuit"></i> Circuit Design &amp; Testing</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card glass-card reveal">
+                        <h3><i class="fa-solid fa-screwdriver-wrench"></i> Development Tools</h3>
+                        <div class="skill-tags">
+                            <span class="skill-pill"><i class="devicon-arduino-plain colored"></i> Arduino IDE</span>
+                            <span class="skill-pill"><i class="fa-solid fa-network-wired skill-icon-diagram"></i> System Block Diagrams</span>
+                            <span class="skill-pill"><i class="fa-solid fa-file-lines skill-icon-docs"></i> Technical Documentation</span>
+                            <span class="skill-pill"><i class="devicon-git-plain colored"></i> Git &amp; <i class="devicon-github-original"></i> GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================================================== -->
+        <!-- PROJECTS SECTION                                      -->
+        <!-- ===================================================== -->
+        <section id="projects" aria-labelledby="projects-title">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">ENGINEERING IN ACTION</span>
+                    <h2 id="projects-title" class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">Real-world applications and smart electronic systems</p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card glass-card reveal">
+                        <div class="project-header">
+                            <div>
+                                <h3 class="project-title">Lumisence – Smart Adaptive Street Lighting System</h3>
+                                <p class="project-subtitle">Sensor-driven energy management for sustainable urban infrastructure</p>
+                            </div>
+                            <span class="project-duration">6 Months Duration</span>
+                        </div>
+
+                        <div class="project-tech">
+                            <span class="tech-pill"><i class="devicon-arduino-plain colored"></i> Arduino Uno</span>
+                            <span class="tech-pill"><i class="devicon-arduino-plain colored"></i> Arduino IDE</span>
+                            <span class="tech-pill"><i class="fa-solid fa-microchip"></i> Embedded C</span>
+                            <span class="tech-pill"><i class="fa-solid fa-wave-square"></i> PIR/IR Sensor</span>
+                            <span class="tech-pill"><i class="fa-solid fa-id-card-clip"></i> RFID</span>
+                            <span class="tech-pill"><i class="fa-solid fa-lightbulb"></i> LED-based Lighting System</span>
+                        </div>
+
+                        <ul class="project-highlights">
+                            <li>Designed the block diagram and actively contributed to the overall system design and architecture.</li>
+                            <li>Engineered and programmed the functional prototype using an Arduino Uno microcontroller with Embedded C.</li>
+                            <li>Interfaced and rigorously tested PIR/IR sensors, RFID modules, and adaptive LED lighting circuits.</li>
+                            <li>Helped develop and test the electronic circuit to enable automated, sensor-driven illumination.</li>
+                            <li>Authored complete project technical presentations and structured documentation.</li>
+                            <li>Contributed to an energy-efficient smart lighting solution that drastically reduces unnecessary municipal power consumption.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================================================== -->
+        <!-- TIMELINE SECTION                                      -->
+        <!-- ===================================================== -->
+        <section id="timeline" aria-labelledby="timeline-title">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">CAREER PATH &amp; STUDIES</span>
+                    <h2 id="timeline-title" class="section-title">Education &amp; Experience</h2>
+                    <p class="section-subtitle">Academic journey and practical engineering foundation</p>
+                </div>
+
+                <div class="timeline">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card glass-card">
+                            <span class="timeline-date">2025 – 2029</span>
+                            <h3>B.E. in Electronics and Communication Engineering</h3>
+                            <p class="timeline-subtitle">Adichunchanagiri Institute of Technology, Chikkamagaluru</p>
+                            <p class="timeline-score"><strong>Cumulative CGPA: 9.6</strong> (1st Sem SGPA: 9.3, 2nd Sem SGPA: 9.95)</p>
+                            <p>Developing deep domain knowledge in electronic circuits, signal processing, embedded architectures, and algorithmic problem solving.</p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card glass-card">
+                            <span class="timeline-date">2023 – 2025</span>
+                            <h3>Pre-University (PU)</h3>
+                            <p class="timeline-subtitle">St. Joseph’s Girls’ PU College, Chikkamagaluru</p>
+                            <p class="timeline-score"><strong>Academic Score: 90.33% Distinction</strong></p>
+                            <p>Completed pre-university education with strong fundamentals in Mathematics and Physics.</p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 3 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card glass-card">
+                            <span class="timeline-date">Current</span>
+                            <h3>Academic Projects &amp; Skill Development</h3>
+                            <p class="timeline-subtitle">Adichunchanagiri Institute of Technology</p>
+                            <p>Actively developing practical skills through academic hardware-software projects, microcontroller labs, and collaborative technical challenges.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================================================== -->
+        <!-- ACHIEVEMENTS SECTION                                  -->
+        <!-- ===================================================== -->
+        <section id="achievements" aria-labelledby="achievements-title">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">RECOGNITIONS</span>
+                    <h2 id="achievements-title" class="section-title">Academic Achievements</h2>
+                    <p class="section-subtitle">Consistent milestones in engineering education</p>
+                </div>
+
+                <div class="achievements-grid">
+                    <div class="achievement-card glass-card reveal">
+                        <div class="achievement-icon">🏆</div>
+                        <h3>9.95 SGPA</h3>
+                        <p>Secured exceptional 9.95 SGPA in 2nd Semester of Engineering</p>
+                    </div>
+
+                    <div class="achievement-card glass-card reveal">
+                        <div class="achievement-icon">🌟</div>
+                        <h3>9.3 SGPA</h3>
+                        <p>Secured outstanding 9.3 SGPA in 1st Semester of Engineering</p>
+                    </div>
+
+                    <div class="achievement-card glass-card reveal">
+                        <div class="achievement-icon">🎓</div>
+                        <h3>90.33%</h3>
+                        <p>Secured high distinction in Pre-University Board Examinations</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================================================== -->
+        <!-- CONTACT SECTION                                       -->
+        <!-- ===================================================== -->
+        <section id="contact" aria-labelledby="contact-title" class="animated-gradient-contact">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">LET'S CONNECT</span>
+                    <h2 id="contact-title" class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Open for internship opportunities, hardware projects, and engineering conversations</p>
+                </div>
+
+                <div class="contact-wrapper">
+                    <a href="mailto:sameekshacnshetty@gmail.com" class="contact-card glass-card reveal">
+                        <div class="contact-icon">✉️</div>
+                        <h3>Email</h3>
+                        <p>sameekshacnshetty@gmail.com</p>
+                        <span class="contact-arrow">Send an email &rarr;</span>
+                    </a>
+
+                    <a href="tel:+917892691376" class="contact-card glass-card reveal">
+                        <div class="contact-icon">📞</div>
+                        <h3>Phone</h3>
+                        <p>+91 7892691376</p>
+                        <span class="contact-arrow">Call or message &rarr;</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/sameeksha-c-n-653bbb3b7" target="_blank" rel="noopener noreferrer" class="contact-card glass-card reveal">
+                        <div class="contact-icon">💼</div>
+                        <h3>LinkedIn</h3>
+                        <p>sameeksha-c-n-653bbb3b7</p>
+                        <span class="contact-arrow">Connect on LinkedIn &rarr;</span>
+                    </a>
+
+                    <a href="https://github.com/sameekshacnshetty17" target="_blank" rel="noopener noreferrer" class="contact-card glass-card reveal">
+                        <div class="contact-icon">🐙</div>
+                        <h3>GitHub</h3>
+                        <p>sameekshacnshetty17</p>
+                        <span class="contact-arrow">View GitHub profile &rarr;</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========================================================= -->
+    <!-- FOOTER                                                    -->
+    <!-- ========================================================= -->
+    <footer class="glass-footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="footer-logo">Sameeksha C N</span>
+                <p>Electronics &amp; Communication Engineering Student | Embedded Systems &amp; Software Enthusiast</p>
+            </div>
+
+            <ul class="footer-links">
+                <li><a href="mailto:sameekshacnshetty@gmail.com">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/sameeksha-c-n-653bbb3b7" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="https://github.com/sameekshacnshetty17" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+                <li><a href="#hero">Back to Top &uarr;</a></li>
+            </ul>
+
+            <p class="footer-copy">&copy; 2026 Sameeksha C N. Designed with a modern lavender aesthetic.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive interactions, scroll reveal & theme script -->
+    <script src="script.js"></script>
+</body>
+</html>
